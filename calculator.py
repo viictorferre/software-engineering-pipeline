@@ -20,3 +20,7 @@ def remainder(a, b):
 
 def power(a, b):
     return a ** b
+
+
+def floor_divide(a, b):
+    return a // b

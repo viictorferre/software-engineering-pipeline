@@ -1,4 +1,4 @@
-from calculator import add, multiply, sub, divide, remainder
+from calculator import add, multiply, sub, divide, remainder, power
 
 
 def test_add():
@@ -22,3 +22,7 @@ def test_divide():
 def test_remainder():
     assert remainder(10, 3) == 1
     assert remainder(8, 4) == 0
+
+def test_power():
+    assert power(2, 3) == 8
+    assert power(5, 0) == 1

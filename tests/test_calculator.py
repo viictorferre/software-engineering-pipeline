@@ -23,6 +23,7 @@ def test_remainder():
     assert remainder(10, 3) == 1
     assert remainder(8, 4) == 0
 
+
 def test_power():
     assert power(2, 3) == 8
     assert power(5, 0) == 1

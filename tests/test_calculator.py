@@ -19,6 +19,10 @@ def test_divide():
     assert divide(9, 3) == 3
 
 
+def test_divide_decimal():
+    assert divide(5, 2) == 2.5
+
+
 def test_remainder():
     assert remainder(10, 3) == 1
     assert remainder(8, 4) == 0
